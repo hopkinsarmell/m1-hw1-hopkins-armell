@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+}
+
+
+header, footer {
+    background: #bd4964;
+    padding: 29px 5%;
+}
+
+main {
+    background: #000000cf;
+    height: 751px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h1, h2, p{
+    font-family: sans-serif;
+}
+
+h1{
+    color: #fdff98;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+h2 {
+    color: #ff9090;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: .5%;
+}
+
+p {
+    color: #b8ffb8;
+}
+
+.footer-text{
+    color: #fdff98;
+    font-size: 0.9rem;
+    padding: 0;
+}
+
+nav {
+    display: none;
+}
+
+nav ul li{
+    color: #fec1c0;
+    font-size: 1rem;
+    font-family: sans-serif;
+    list-style: none;
+    padding: 1%;
+    display: inline-flex;
+}
+
+
